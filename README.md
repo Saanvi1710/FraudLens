@@ -1,7 +1,7 @@
-# TransactSense: Hybrid Financial Fraud Detection Engine
+# FraudLens: Hybrid Financial Fraud Detection Engine
 
 ## Overview
-TransactSense is an end-to-end, containerized Machine Learning pipeline engineered to detect multi-dimensional financial fraud across both credit card transactions (Sparkov dataset) and mobile money transfers (PaySim dataset). 
+FraudLens is an end-to-end, containerized Machine Learning pipeline engineered to detect multi-dimensional financial fraud across both credit card transactions (Sparkov dataset) and mobile money transfers (PaySim dataset). 
 
 This system moves beyond traditional rule-based logic by implementing a **Hybrid Machine Learning Architecture**. It stacks Unsupervised Learning (Behavioral Clustering) and Semi-Supervised Learning (Anomaly Detection) as contextual feature inputs into a highly tuned Supervised ensemble classifier (XGBoost). The inference engine is exposed via a FastAPI microservice and containerized with Docker for seamless cloud deployment.
 
