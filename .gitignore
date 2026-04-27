@@ -1,0 +1,20 @@
+# 1. Ignore Raw and Processed Data
+datasets/
+processed_data/
+*.csv
+*.zip
+
+# 2. Ignore Heavy ML Models
+saved_models/
+*.joblib
+*.pkl
+
+# 3. Ignore Jupyter and Python Caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# 4. Ignore Environment and OS System Files
+.env
+.DS_Store
+Thumbs.db
